@@ -9,6 +9,7 @@ import { MenuComponent } from './misc/menu/menu.component';
 
 const routes: Routes = [
   {path:"",redirectTo:"/home",pathMatch:"full"},
+  //Add your routes here
   {path:"**",component:E404Component}
 
 
